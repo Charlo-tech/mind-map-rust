@@ -64,3 +64,9 @@ src/
 ## Plans
 - Add Sqlite storage to the app.
 - Improve on the UI and add more features.
+
+##Demo
+![enter media description here](https://github.com/Charlo-tech/mind-map-rust/assets/57678615/ad8ace49-8ef9-48fb-96d3-2781a2b162af)
+
+https://github.com/user-attachments/assets/b02d8921-b16b-4339-a63e-5fa8f190bcf8
+
