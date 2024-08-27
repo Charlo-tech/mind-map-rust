@@ -9,6 +9,7 @@ Mind Map Rust is a simple and efficient mind-mapping tool built using Rust and t
 2. Connect Nodes: Create connections between nodes to represent relationships and dependencies.
 3. Real-Time Rendering: Leverages eframe and egui for smooth and real-time rendering of the mind map.
 4. Rust-Powered Performance: Built with Rust, ensuring high performance and safety.
+5. Cross-platform support as it works natively on the local machine and on web.
 
 ## Benefits
 Thi tool helps users to organise their thoughts and to build easy to use mind maps and it runs natively on their machine enabled by the egui and eframe additions to Rust. It is super fast and very portable making it the best mind mapping tool there is.
@@ -42,7 +43,7 @@ src/
 │   ├── mod.rs
 │   ├── mind_map.rs
 │   └── node.rs
-├── lib.rs
+├── lib.rs *#web entry point.*
 ├── storage/
 │   ├── mod.rs
 │   └── file.rs
@@ -62,5 +63,4 @@ src/
 
 ## Plans
 - Add Sqlite storage to the app.
-- Transfer its UI to a web version to enable universal access.
 - Improve on the UI and add more features.
